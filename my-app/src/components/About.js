@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function About() {
   const [myStyle, setmyStyle] = useState({
-    color: "black",
+    color: "#1a1717",
     backgroundColor: "white",
   });
   const [btnText, setBtnText] = useState("Enable Dark Mode");
@@ -10,14 +10,14 @@ export default function About() {
   const toggleStyle = () => {
     if (myStyle.color === "white") {
       setmyStyle({
-        color: "black",
+        color: "#1a1717",
         backgroundColor: "white",
       });
       setBtnText("Enable Dark Mode");
     } else {
       setmyStyle({
         color: "white",
-        backgroundColor: "black",
+        backgroundColor: "#1a1717",
         border: "1px solid white",
       });
       setBtnText("Enable Light Mode");
