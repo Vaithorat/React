@@ -1,5 +1,6 @@
 # React-Capitalize
-First project, basically to learn React.js 
+First project, basically to learn React.js.
+
 Working on creating Text Utils website.
 Currently implemented: 
 1. Text to UpperCase
